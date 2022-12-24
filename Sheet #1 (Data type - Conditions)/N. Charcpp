@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+#include<conio.h>
+using namespace std;
+int main()
+{
+    char c;
+    cin>>c;
+    if(islower(c))
+    {
+        c-=32;
+    }
+    else if(isupper(c)){
+        c+=32;}
+        cout<<c;
+}
+ 
